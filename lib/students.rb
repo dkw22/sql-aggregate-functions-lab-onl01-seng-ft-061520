@@ -1,4 +1,4 @@
-## Code your solution below. Note that your SQL queries should be in quotation marks. SELECT SUM(column_name) FROM table_name;
+## Code your solution below. Note that your SQL queries should be in quotation marks. SELECT * FROM cats ORDER BY age DESC LIMIT 1;
 
 def highest_student_gpa
   "SELECT MAX(gpa) FROM students;"
@@ -17,5 +17,5 @@ def total_tardies_for_all_students
 end
 
 def average_gpa_for_9th_grade
-  "SELECT AVG(gpa) FROM students;"
+  "SELECT AVG(gpa) FROM students ORDER BY grade LIMIT 1;"
 end
